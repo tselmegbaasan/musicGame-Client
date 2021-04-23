@@ -1,0 +1,42 @@
+.gameWindow-container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.gameWindow-lyrics-container {
+    font-size: 15px;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.gameWindow-input-timer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gameWindow-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.gameWindow-input-container input {
+    height: 35px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.gameWindow-button-container {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.divider {
+    width: 10px;
+}
+

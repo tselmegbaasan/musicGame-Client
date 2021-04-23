@@ -1,0 +1,50 @@
+.form {
+    display: flex;
+    height: 100vh;
+    width: 1500px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newGameForm-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;     
+}
+
+.newGameForm-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.single-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+.divider-15px {
+    width:15px;
+    height:auto;
+    display:inline-block;
+}
+
+.divider-30px {
+    width:30px;
+    height:auto;
+    display:inline-block;
+}
+
+.newGameForm-container > h1 {
+    color: black;
+    margin-top: 150px; 
+}
+
+h3, h2 {
+    text-align: center;
+}

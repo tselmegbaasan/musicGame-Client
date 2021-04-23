@@ -1,0 +1,36 @@
+.lyricsGame-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    height: 100%;
+    width: 1500px;
+}
+
+.lyricsGame-title > h1 {
+    color: black;
+    margin-bottom: 30px;
+}
+
+
+.lyricsGame-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.lyricsGame-content-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.lyricsGame-buttons {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
