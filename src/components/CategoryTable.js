@@ -21,8 +21,6 @@ const CategoryTable = () => {
             .catch(err => console.log(err.message))
     }
 
-    console.log(categories)
-
     useEffect(() => {
         if (!mounted) {
             loadCategories()
